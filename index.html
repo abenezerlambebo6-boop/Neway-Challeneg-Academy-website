@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Neway Challenge Academy · Big ideas. Brighter you.</title>
+  <meta name="description" content="Explore Neway Challenge Academy, Ethiopian textbooks for Grades 1–12, and a little everyday discovery.">
+  <link rel="icon" href="images/logo.jpg"><link rel="stylesheet" href="styles.css">
+  <script src="catalog.js" defer></script><script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header"><div class="wrap navigation">
+  <a href="#" aria-label="Neway Challenge Academy home"><img class="logo" src="images/logo.jpg" width="224" height="52" alt="Neway Challenge Academy"></a>
+  <button id="menu" class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="navigation">☰</button>
+  <nav id="navigation" aria-label="Main navigation"><a href="#school">Our school</a><a href="#life">School life</a><a href="#library">Book library</a><a class="button small" href="#assistant">Meet Neway AI ↗</a></nav>
+</div></header>
+<main id="main">
+<section class="hero wrap">
+  <div class="hero-copy"><p class="eyebrow"><span class="spark">✳</span> BIG QUESTIONS WELCOME</p>
+    <h1>Big ideas.<br><span>Brighter you.</span></h1>
+    <p class="lead">For the curious. The creative. The “but why?” thinkers.<br>There’s a whole world to discover at Neway.</p>
+    <div class="actions"><a class="button" href="#library">Let’s explore <span>↗</span></a><a class="plain-link" href="#school">Find your place →</a></div>
+    <div class="hero-note"><span class="mini-avatars" aria-hidden="true">a <b>π</b> ?</span> Little questions. Unlimited possibilities.</div>
+  </div>
+  <div class="hero-art" aria-label="A pupil at Neway Challenge Academy">
+    <div class="orbit" aria-hidden="true"></div><div class="hero-photo"><img src="images/hero.jpg" alt="A smiling Neway pupil holding a school notebook" fetchpriority="high"><span>Today a reader.<br><b>Tomorrow a leader.</b></span></div>
+    <span class="pi-sticker float" aria-hidden="true">πr²</span>
+    <div class="flask-sticker float" aria-hidden="true"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3"><path d="M36 12h28M41 12v28L18 79q-5 10 8 10h48q13 0 8-10L59 40V12M29 65q10-9 23 0t19 0"/><circle cx="45" cy="74" r="3"/><circle cx="58" cy="55" r="3"/><circle cx="74" cy="27" r="5"/></svg><span>Try. Wonder. Repeat.</span></div>
+    <span class="idea-sticker float">✧ Made of<br><b>bright ideas.</b></span><span class="hero-star" aria-hidden="true">✳</span>
+  </div>
+</section>
+<div class="ribbon"><div class="ribbon-track" aria-hidden="true"><span>Ask a little louder ✧ Dream a little bigger ✧ Learn together ✧ Keep being curious ✧ </span><span>Ask a little louder ✧ Dream a little bigger ✧ Learn together ✧ Keep being curious ✧ </span></div><span class="sr-only">Ask questions. Dream bigger. Learn together. Stay curious.</span></div>
+<section class="wrap section" id="school">
+  <div class="heading"><div><p class="eyebrow">THIS IS YOUR PLACE</p><h2>Growing minds.<br><span class="pink-text">Great possibilities.</span></h2></div><p>From your very first discoveries to your next big chapter. Find a little inspiration, a new question, and the resources to keep learning.</p></div>
+  <div class="stages">
+    <button class="stage green" data-grade="4"><span class="stage-icon">a + b</span><span class="eyebrow">GRADES 1–8</span><h3>Start with wonder.</h3><p>Elementary · Strong foundations, one discovery at a time.</p><span class="stage-link">Explore resources ↗</span></button>
+    <button class="stage blue" data-grade="9"><span class="stage-icon">⚛</span><span class="eyebrow">GRADES 9–10</span><h3>Keep asking why.</h3><p>High school · Bigger questions. New connections.</p><span class="stage-link">Explore resources ↗</span></button>
+    <button class="stage pink" data-grade="12"><span class="stage-icon">∞</span><span class="eyebrow">GRADES 11–12</span><h3>Make your next move.</h3><p>Preparatory · Dive deeper into what inspires you.</p><span class="stage-link">Explore resources ↗</span></button>
+  </div>
+</section>
+<section class="wrap section life" id="life">
+  <div class="heading"><div><p class="eyebrow">LIFE AT NEWAY</p><h2>So much more<br>than a classroom.</h2></div><p>Little moments. Shared discoveries.<br>Memories that stay with you.</p></div>
+  <div class="gallery">
+    <button data-photo="images/life-1.jpg" data-caption="Students sharing a science activity"><img src="images/life-1.jpg" alt="Neway students presenting a classroom science activity" loading="lazy"><span>Ideas come to life. ↗</span></button>
+    <button data-photo="images/life-2.jpg" data-caption="Celebrating Ethiopian culture"><img src="images/life-2.jpg" alt="Young pupils wearing Ethiopian cultural clothing" loading="lazy"><span>A little colour. A lot of pride. ↗</span></button>
+    <button data-photo="images/campus.jpg" data-caption="Welcome to Neway Challenge Academy"><img src="images/campus.jpg" alt="Neway Challenge Academy school courtyard" loading="lazy"><span>Your place to grow. ↗</span></button>
+  </div><p class="caption">Real moments from the school’s published photo collection.</p>
+</section>
+<section class="lab wrap" aria-labelledby="lab-title">
+  <div><p class="eyebrow">ONE MINUTE. ONE LITTLE DISCOVERY.</p><h2 id="lab-title">What happens<br>when a circle grows?</h2><p>Move the slider. Double the radius.<br>Does the area double too?</p></div>
+  <div class="circle-experiment"><div class="circle-board"><div id="circle" aria-hidden="true"><span>r</span></div></div><label for="radius">Radius <output id="radius-value">4 cm</output></label><input id="radius" type="range" min="1" max="10" value="4"><p>A = πr² = <output id="area">50.27 cm²</output></p><small>Double the radius → four times the area.</small></div>
+</section>
+<section class="section ai-section" id="assistant"><div class="wrap ai-grid">
+  <div class="ai-intro"><p class="eyebrow">MEET NEWAY AI</p><h2>A big question?<br><span>Let’s unpack it.</span></h2><p>A study companion, right here. Ask for an explanation, practise a problem, or explore something that made you curious.</p><ul><li>Textbook context, without the book hunt</li><li>Clear explanations for your grade</li><li>Outdated facts explained, not repeated</li></ul><span class="ai-doodle" aria-hidden="true">curiosity + you = ∞</span></div>
+  <div class="chat-card"><div class="chat-heading"><span class="bot-face" aria-hidden="true">:)</span><div><h3>Neway AI</h3><p id="ai-status" role="status">Checking connection…</p></div><button id="clear-chat" class="text-button">New chat</button></div>
+    <div class="chat-options"><label>Your grade<select id="ai-grade"></select></label><label>Subject<select id="ai-subject"><option value="">Let AI choose</option></select></label></div>
+    <div id="messages" class="messages" role="log" aria-label="Study conversation" aria-live="polite"><div class="welcome"><b>Hey, curious mind. ✧</b><p>What would you like to understand today?</p></div></div>
+    <div class="prompts"><button data-prompt="Explain atoms simply, and tell me if they are the smallest things.">What’s inside an atom?</button><button data-prompt="Help me practise finding the area of a circle, one step at a time.">Help me practise</button></div>
+    <form id="chat-form"><label class="sr-only" for="question">Your question</label><textarea id="question" rows="2" maxlength="2000" placeholder="Ask your question. No textbook selection needed…" required></textarea><button class="button" id="send" type="submit">Ask Neway AI <span>↑</span></button></form>
+    <p class="chat-note">When connected, questions go to the AI provider. Keep personal details private. Check important answers and cited pages.</p>
+  </div>
+</div></section>
+<section class="wrap section" id="library">
+  <div class="heading"><div><p class="eyebrow">A BOOK FOR YOUR NEXT “AHA!”</p><h2>Your grade.<br><span class="blue-text">Your next chapter.</span></h2></div><p>Textbook search has its own space.<br>Choose a grade, find a subject, open your book.</p></div>
+  <div class="filters"><label>Grade<select id="book-grade"><option value="0">All grades</option></select></label><label>Search a subject<input id="book-search" type="search" placeholder="Mathematics, English, biology…"></label><label>Language<select id="book-language"><option value="">All languages</option></select></label></div>
+  <div class="result-line"><p id="book-count" role="status"></p><button id="about-books" class="text-button">About these books ↗</button></div><div id="books" class="books"></div><button id="more-books" class="button outline">Show more books ↓</button>
+  <p class="resource-note">A growing collection of 102 resources for Grades 1–12. Regional languages and editions differ: check your teacher’s assigned copy. This is not yet a complete, school-approved set for every subject.</p>
+</section>
+<section class="closing wrap"><span aria-hidden="true">✧</span><h2>Stay curious.<br><span class="pink-text">The world needs it.</span></h2><a class="button" href="#contact">Come say hello ↗</a></section>
+</main>
+<footer id="contact"><div class="wrap"><div class="footer-grid">
+  <div><img class="logo footer-logo" src="images/logo.jpg" width="224" height="52" alt="Neway Challenge Academy"><p>Big ideas. Brighter you.<br>A better school, a better world.</p><div class="socials"><a href="https://www.facebook.com/groups/811213729399015/about/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://t.me/newaychallenge" target="_blank" rel="noopener noreferrer">Telegram ↗</a><span>Instagram · link to confirm</span></div></div>
+  <div><h3>Find your campus</h3><a class="campus" href="https://www.google.com/maps/search/?api=1&amp;query=Neway%20Challenge%20Academy%202%20Elementary%20School%20Lebu%20Addis%20Ababa" target="_blank" rel="noopener noreferrer"><b>Campus 2 · Elementary</b><span>Lebu, Nifas Silk-Lafto, Addis Ababa</span><small>Search Google Maps ↗ · Confirm the entrance by phone.</small></a><a class="campus" href="https://www.google.com/maps?cid=432782787784595813" target="_blank" rel="noopener noreferrer"><b>Campus 1 · High school</b><span>Lebu, Nifas Silk-Lafto, Addis Ababa</span><small>Open Google Maps ↗</small></a></div>
+  <div><h3>Let’s talk</h3><a href="tel:+251114712032">+251 11 471 2032</a><a href="tel:+251114712043">+251 11 471 2043</a><a href="https://newaychallenge.com/" target="_blank" rel="noopener noreferrer">Original school website ↗</a><a href="source.html">See the website code ↗</a></div>
+</div><div class="copyright"><span>© <span id="year">2026</span> Neway Challenge Academy. All rights reserved.</span><a href="#">Back to top ↑</a></div></div></footer>
+<dialog id="photo-dialog"><button class="close" aria-label="Close photo">✕</button><img id="large-photo" alt=""><p id="photo-caption"></p></dialog>
+<dialog id="source-dialog"><button class="close" aria-label="Close sources">✕</button><h2>Good learning starts<br>with good sources.</h2><p>The collection includes regional government PDFs and copies in a school library. Match the language and edition with your teacher’s book.</p><p>Neway AI uses accessible textbook references when connected. It must distinguish what a textbook says from updated science, and say when a source cannot be verified. It is not guaranteed to know everything or always be correct.</p><a href="https://anrseb.gov.et/downloads/new-textbooks/" target="_blank" rel="noopener noreferrer">Amhara Education Bureau ↗</a><a href="https://lts.stjohn.edu.et/find-borrow-request/moe-textbooks" target="_blank" rel="noopener noreferrer">St. John school textbook collection ↗</a><p>School logo and images: Neway’s published website. The elementary map is a name search; its exact entrance and the Instagram account still need confirmation.</p></dialog>
+</body></html>
